@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Về chúng tôi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/v4-shims.css">
+    <link rel="shortcut icon" href="assets/images/fav-icon.png">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="container grid">
+                    <div class="top-left">
+                        <a href="tel:+84 1234 567 890">
+                            <i class="fa fa-mobile"></i> +84 984 566 143</a>
+                        <a href="mailto:contact@fpt.edu.vn">
+                            <i class="fa fa-envelope"></i> contact@fpt.edu.vn</a>
+                    </div>
+                    <div class="top-right">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle">
+                                <i class="fa fa-user"></i> TÀI KHOẢN
+                                <i class="fa fa-angle-down"></i>
+                            </span>
+                            <div class="dropdown-content">
+                                <a href="#">Đăng nhập</a>
+                                <a href="#">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mid Header -->
+            <div class="mid-header-2">
+                <div class="container grid">
+                    <!--Header Logo-->
+                    <div class="header-logo">
+                        <a href="index.html" class="header-logo-link">
+                            <img src="assets/images/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+
+                    <nav class="main-nav">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="all-products.html">Sản Phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Liên Hệ</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <!-- Header Search -->
+                    <div class="search-cart">
+                        <form class="header-search" method="get" action="/">
+                            <input type="text" id="search" class="search-field" dir="ltr" value="" name="s" placeholder="Search for products" />
+                        </form>
+                        <!-- Header Cart -->
+                        <div class="header-cart">
+                            <a href="#" class="cart-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                            <div class="cart-count">
+                                <span>2 Sản phẩm</span>
+                                <strong>30.998.000₫</strong>
+                            </div>
+                            <div class="dropdown-cart">
+                                <h5 class="title">Trong giỏ có (
+                                    <span>2</span> sản phẩm)</h5>
+                                <ul class="dropdown-items">
+                                    <li class="item">
+                                        <figure class="cart-prod-img">
+                                            <img src="assets/images/products/iphone-8-plus-64gb.png" alt="Iphone 8 Plus">
+                                        </figure>
+                                        <div class="qty-price">
+                                            <h6>iPhone 8 Plus 64GB</h6>
+                                            <span class="qty">1</span>
+                                            <span class="price">23.990.000₫</span>
+                                        </div>
+                                        <a href="#" class="delete-item" title="Xóa sản phẩm" onclick="alert('Đang cập nhật')">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <figure class="cart-prod-img">
+                                            <a href="#">
+                                                <img src="assets/images/products/samsung-galaxy-a6.png" alt="Samsung Galaxy S6">
+                                            </a>
+                                        </figure>
+                                        <div class="qty-price">
+                                            <h6>Samsung Galaxy A6 (2018)</h6>
+                                            <span class="qty">1</span>
+                                            <span class="price">6.990.000₫</span>
+                                        </div>
+                                        <a href="#" class="delete-item" title="Xóa sản phẩm" onclick="alert('Đang cập nhật')">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="cart-total">
+                                    <span>Tổng tiền</span>
+                                    <span>30.998.000₫</span>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-secondary text-uppercase" href="cart.html">Xem Giỏ</button>
+                                    <button type="button" class="btn btn-secondary text-uppercase" href="checkout.html">Thanh Toán</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <nav id="mobile-menu" class="mobile-menu">
+                <div href="javascript:void(0);" class="title" onclick="mobileNav()">
+                    <span>Menu</span>
+                    <span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </div>
+                <div class="m-dropdown" id="mobile-dropdown">
+                    <a href="index.html">Trang Chủ</a>
+                    <a href="all-products.html">Sản Phẩm</a>
+                    <a href="about-us.html">Giới Thiệu</a>
+                    <a href="contact.html">Liên Hệ</a>
+                </div>
+            </nav>
+        </header>
+        <!-- Main Content -->
+        <!-- Heading -->
+        <section id="main-content">
+            <div class="side-nav">
+                <a href="#" id="header1" class="side-item"><i class="fas fa-user"></i>
+                    <span class="side-title">Giới thiệu về chúng tôi</span>
+                </a>
+                <a href="#" id="header2" class="side-item"><i class="fas fa-clock"></i>
+                    <span class="side-title">Lịch sử hình thành</span></a>
+                <a href="#" id="header3" class="side-item"><i class="fas fa-users"></i>
+                    <span class="side-title">Thành viên</span></a>
+            </div>
+            <div class="bg-heading">
+                <div class="container heading-row">
+                    <h2 class="heading">Về Chúng Tôi</h2>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="all-products.html">Giới thiệu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="about-store">
+                <div class="container">
+                    <h2 id="aboutus">Giới thiệu về chúng tôi</h2>
+                    <h6>
+                        <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus, lorem quis maximus consectetur,
+                            massa sapien tincidunt tortor, eu sodales sapien tellus a arcu. Morbi nec odio non sapien posuere
+                            luctus. Praesent at lobortis justo. Pellentesque aliquam neque ut quam ultricies convallis ac
+                            ut ipsum. Suspendisse molestie vulputate mi at laoreet. Aenean dignissim porttitor enim. Nulla
+                            tristique tristique pulvinar. Aenean nec tempus purus. In laoreet libero ac nibh facilisis, vitae
+                            elementum odio porttitor. Aliquam erat volutpat. Aenean ac arcu eget magna gravida ornare. Aenean
+                            eu vestibulum ipsum. Sed id nibh at justo consequat consectetur sed eu leo. Fusce elit lectus,
+                            finibus nec tortor vitae, pharetra feugiat elit. Mauris nec pulvinar lacus, et suscipit dui.</em>
+                    </h6>
+
+                    <p>
+                        Maecenas venenatis, nunc et egestas commodo, elit velit efficitur lorem, sed consequat urna ligula ac arcu. Mauris aliquam
+                        ante nisl, vel tempor urna mollis vel. Suspendisse sit amet vehicula eros. Donec sit amet nisl vehicula,
+                        eleifend lectus nec, ultricies turpis. Cras vestibulum orci mollis mauris pulvinar, quis tincidunt
+                        mi tempus. Sed eget sodales erat. Cras rhoncus, sapien a viverra vulputate, nulla quam condimentum
+                        metus, et tempus nulla diam sit amet nulla. Duis ullamcorper non ipsum quis varius. Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit. Morbi vehicula ultrices gravida. Praesent cursus varius ullamcorper.
+                    </p>
+
+                    <p>
+                        Aliquam condimentum elit enim, ac feugiat tellus fermentum venenatis. In blandit vel enim vel accumsan. Suspendisse eros
+                        leo, interdum eu elementum et, posuere sit amet sem. Maecenas condimentum nulla sed felis posuere,
+                        quis ullamcorper turpis imperdiet. Quisque iaculis libero nec magna malesuada, nec ullamcorper libero
+                        ornare. Aenean pharetra lacus venenatis elit elementum dapibus. Cras accumsan nisi sem, vel faucibus
+                        dolor imperdiet ut.
+                    </p>
+                </div>
+            </section>
+            <section class="history">
+                <div class="container grid">
+                    <div class="video-area">
+                        <video class="videoControl" controls poster="assets/images/video-poster.jpg">
+                            <source src="assets/images/iPhoneHistory.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="right-content">
+                        <h2 id="history">Lịch sử hình thành</h2>
+                        <p>
+                            Maecenas ligula neque, pulvinar facilisis leo at, pellentesque sodales dolor. Integer fringilla justo sit amet ex sagittis,
+                            id tristique purus rhoncus. Integer pharetra posuere felis at blandit. Morbi eget risus eu ante
+                            ultricies feugiat. Phasellus commodo quam diam, sit amet lacinia ligula ultricies a. Sed ornare,
+                            mauris id sollicitudin vulputate, ex magna semper elit, ac tempus eros lectus ut orci. Curabitur
+                            consectetur lacinia tristique. Integer blandit sit amet est at gravida. Phasellus diam eros,
+                            mollis nec laoreet condimentum, bibendum eu felis. Sed at vehicula quam. Donec ut neque nec lectus
+                            sollicitudin mattis ut quis justo. Sed porta dui quis nisl condimentum rhoncus. Fusce sollicitudin
+                            arcu sit amet porta tempus. Proin cursus nulla a felis mattis volutpat. Donec malesuada nisi
+                            nec lacus dignissim tempor. Vivamus a vestibulum metus.
+                        </p>
+                        <p>
+                            Nunc blandit nibh sapien, sed consectetur libero viverra non. Vivamus id urna nulla. Curabitur laoreet augue felis, ac fermentum
+                            massa rutrum vel. Donec commodo tellus euismod, sagittis massa vitae, hendrerit nulla. Suspendisse
+                            quis ultricies ex, nec volutpat risus. In sit amet odio nec nisi pellentesque tempor non sit
+                            amet risus. Fusce quis urna magna.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="myteam">
+                <div class="container">
+                    <h2 id="member">Thành viên</h2>
+                    <div class="member grid">
+                        <div class="member-cols">
+                            <img src="assets/images/male-avatar.png" alt="Member">
+                            <div class="mem-info">
+                                <h4>Nguyễn Quốc Tài</h4>
+                                <span>Người sáng lập</span>
+                            </div>
+                        </div>
+                        <div class="member-cols">
+                            <img src="assets/images/male-avatar.png" alt="Member">
+                            <div class="mem-info">
+                                <h4>Member 1</h4>
+                                <span>Quản lý kinh doanh</span>
+                            </div>
+                        </div>
+                        <div class="member-cols">
+                            <img src="assets/images/male-avatar.png" alt="Member">
+                            <div class="mem-info">
+                                <h4>Member 2</h4>
+                                <span>Quản lý tiếp thị</span>
+                            </div>
+                        </div>
+                        <div class="member-cols">
+                            <img src="assets/images/female-avatar.png" alt="Member">
+                            <div class="mem-info">
+                                <h4>Member 3</h4>
+                                <span>Quản lý nhân sự</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="top-footer">
+                <div class="container grid">
+                    <div class="company-info">
+                        <img src="assets/images/logo_footer.png" alt="footer logo">
+                        <p>XMobile - Công ty TNHH thương mại và kỹ thuật, chuyên kinh doanh các loại mặt hàng điện thoại chất
+                            lượng trên toàn quốc</p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> 778/B1 Nguyễn Kiệm, P.4, Q. Phú Nhuận, TP. Hồ Chí Minh</p>
+                        <p>
+                            <i class="fas fa-phone"></i> 028 3526 8799</p>
+                        <p>
+                            <i class="fas fa-envelope"></i> contact@fpt.edu.vn</p>
+                    </div>
+                    <div class="about-us-link">
+                        <h3>Thông tin</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Về chúng tôi</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách bảo hành</a>
+                            </li>
+                            <li>
+                                <a href="#">Tin khuyến mãi</a>
+                            </li>
+                            <li>
+                                <a href="#">Hệ thống cửa hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="account-link">
+                        <h3>Tài khoản</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="#">Đăng ký</a>
+                            </li>
+                            <li>
+                                <a href="#">Giỏ hàng</a>
+                            </li>
+                            <li>
+                                <a href="#">Thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fb-page">
+                        <h3>Fanpage</h3>
+                        <div class="fb-page" data-href="https://www.facebook.com/NguyenTai.Blogg" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/NguyenTai.Blogg" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/NguyenTai.Blogg">Nguyễn Quốc Tài</a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-footer">
+                <div class="container">
+                    &copy; 2018 - Công ty TNHH thương mại và kỹ thuật - Bản quyền thuộc trường cao đẳng FPT Polytechnic.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="fb-root"></div>
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+   <script src="assets/js/contentScript.js"></script>
+   <script>
+   $("#header1").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#aboutus").offset().top
+    }, 1000);
+});
+   $("#header2").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#history").offset().top
+    }, 1000);
+});
+   $("#header3").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#member").offset().top
+    }, 1000);
+});
+   </script>
+</body>
+
+</html>

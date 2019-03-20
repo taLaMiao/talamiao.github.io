@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sản Phẩm</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/v4-shims.css">
+    <link rel="shortcut icon" href="assets/images/fav-icon.png">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="container grid">
+                    <div class="top-left">
+                        <a href="tel:+84 1234 567 890">
+                            <i class="fa fa-mobile"></i> +84 984 566 143</a>
+                        <a href="mailto:contact@fpt.edu.vn">
+                            <i class="fa fa-envelope"></i> contact@fpt.edu.vn</a>
+                    </div>
+                    <div class="top-right">
+                        <div class="dropdown">
+                            <span class="dropdown-toggle">
+                                <i class="fa fa-user"></i> TÀI KHOẢN
+                                <i class="fa fa-angle-down"></i>
+                            </span>
+                            <div class="dropdown-content">
+                                <a href="#">Đăng nhập</a>
+                                <a href="#">Đăng ký</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mid Header -->
+            <div class="mid-header-2">
+                <div class="container grid">
+                    <!--Header Logo-->
+                    <div class="header-logo">
+                        <a href="index.html" class="header-logo-link">
+                            <img src="assets/images/logo.svg" alt="Logo">
+                        </a>
+                    </div>
+
+                    <nav class="main-nav">
+                        <ul>
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="all-products.html">Sản Phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">Giới Thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Header Search -->
+                    <div class="search-cart">
+                        <form class="header-search" method="get" action="/">
+                            <input type="text" id="search" class="search-field" dir="ltr" value="" name="s" placeholder="Search for products" />
+                        </form>
+                        <!-- Header Cart -->
+                        <div class="header-cart">
+                            <a href="#" class="cart-icon">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                            <div class="cart-count">
+                                <span>2 Sản phẩm</span>
+                                <strong>30.998.000₫</strong>
+                            </div>
+                            <div class="dropdown-cart">
+                                <h5 class="title">Trong giỏ có (
+                                    <span>2</span> sản phẩm)</h5>
+                                <ul class="dropdown-items">
+                                    <li class="item">
+                                        <figure class="cart-prod-img">
+                                            <img src="assets/images/products/iphone-8-plus-64gb.png" alt="Iphone 8 Plus">
+                                        </figure>
+                                        <div class="qty-price">
+                                            <h6>iPhone 8 Plus 64GB</h6>
+                                            <span class="qty">1</span>
+                                            <span class="price">23.990.000₫</span>
+                                        </div>
+                                        <a href="#" class="delete-item" title="Xóa sản phẩm" onclick="alert('Đang cập nhật')">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <figure class="cart-prod-img">
+                                            <a href="#">
+                                                <img src="assets/images/products/samsung-galaxy-a6.png" alt="Samsung Galaxy S6">
+                                            </a>
+                                        </figure>
+                                        <div class="qty-price">
+                                            <h6>Samsung Galaxy A6 (2018)</h6>
+                                            <span class="qty">1</span>
+                                            <span class="price">6.990.000₫</span>
+                                        </div>
+                                        <a href="#" class="delete-item" title="Xóa sản phẩm" onclick="alert('Đang cập nhật')">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="cart-total">
+                                    <span>Tổng tiền</span>
+                                    <span>30.998.000₫</span>
+                                </div>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-secondary text-uppercase" href="cart.html">Xem Giỏ</button>
+                                    <button type="button" class="btn btn-secondary text-uppercase" href="checkout.html">Thanh Toán</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <nav id="mobile-menu" class="mobile-menu">
+                <div href="javascript:void(0);" class="title" onclick="mobileNav()">
+                    <span>Menu</span>
+                    <span>
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </div>
+                <div class="m-dropdown" id="mobile-dropdown">
+                    <a href="index.html">Trang Chủ</a>
+                    <a href="all-products.html">Sản Phẩm</a>
+                    <a href="about-us.html">Giới Thiệu</a>
+                    <a href="contact.html">Liên Hệ</a>
+                </div>
+            </nav>
+        </header>
+        <!-- Main Content -->
+        <!-- Heading -->
+        <section id="main-content">
+            <div class="bg-heading">
+                <div class="container heading-row">
+                    <h2 class="heading">Tất cả sản phẩm</h2>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="all-products.html">Sản phẩm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="products-area">
+                <div class="container grid">
+                    <div class="products-show">
+                        <div class="title-bar flexbox">
+                            <h3>
+                                <span>Sản phẩm</span>
+                            </h3>
+                        </div>
+                        <div class="products-list grid">
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/iphonex.jpg" alt="iPhone X 64GB">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>29.990.000 ₫</strong>
+                                            <del>31.990.000 ₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">iPhone X</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/galaxy-j8.jpg" alt="Samsung Galaxy J8">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>7.290.000 ₫</strong>
+                                            <del>8.290.000 ₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Samsung Galaxy J8</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/nokia-7-plus.jpg" alt="Nokia 7 Plus">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>8.290.000₫</strong>
+                                            <del>9.290.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Nokia 7 Plus</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/oppo-f7.png" alt="Oppo F7">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>7.990.000₫</strong>
+                                            <del>8.990.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Oppo F7</h4>
+                                </a>
+                            </div>
+
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/galaxy-s8-plus.jpg" alt="Samsung Galaxy S8 Plus">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>16.990.000₫</strong>
+                                            <del>17.990.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Samsung Galaxy S8 Plus</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/oppo-find-x.jpg" alt="Oppo Find X">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>20.990.000₫</strong>
+                                            <del>22.990.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Oppo Find X</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/galaxy-s9-plus.jpg" alt="Samsung Galaxy S9+ Lilac Purple">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>26.990.000₫</strong>
+                                            <del>26.490.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Samsung Galaxy S9+ Lilac Purple</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/xiaomi-a2.jpg" alt="Xiaomi Mi A2 Lite">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>5.290.000₫</strong>
+                                            <del>6.990.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Xiaomi Mi A2 Lite</h4>
+                                </a>
+                            </div>
+                            <div class="prods-thumb">
+                                <a href="product-single.html">
+                                    <figure class="products-thumb">
+                                        <img src="assets/images/products/huawei-p20-pro.jpg" alt="Huawei P20 Pro">
+                                    </figure>
+                                    <div class="price-reviews flexbox space-between">
+                                        <div class="price">
+                                            <strong>19.990.000₫</strong>
+                                            <del>20.990.000₫</del>
+                                        </div>
+                                        <div class="reviews">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>
+                                        </div>
+                                    </div>
+                                    <h4 href="#" class="prods-tit">Huawei P20 Pro</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bottom-sorting flexbox">
+                            <div class="result-count">Hiển thị 1 - 9 sản phẩm</div>
+                            <!-- No. Page-->
+                            <div class="pagination">
+                                <ul class="page-numbers flexbox">
+                                    <li>
+                                        <a class="page-numbers" href="#">&lt;</a>
+                                    </li>
+                                    <li>
+                                        <span class="page-numbers current">1</span>
+                                    </li>
+                                    <li>
+                                        <a class="page-numbers" href="#">2</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-numbers" href="#">3</a>
+                                    </li>
+                                    <li>
+                                        <a class="page-numbers" href="#">&gt;</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="aside">
+                        <div class="left-sidebar mb-20">
+                            <div class="sidebar-title">
+                                <h4>Danh mục sản phẩm</h4>
+                            </div>
+                            <ul class="detail-cat">
+                                <li>
+                                    <a href="#">Apple</a>
+                                </li>
+                                <li>
+                                    <a href="#">Samsung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Oppo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sony</a>
+                                </li>
+                                <li>
+                                    <a href="#">Nokia</a>
+                                </li>
+                                <li>
+                                    <a href="#">Asus</a>
+                                </li>
+                                <li>
+                                    <a href="#">Xiaomi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vivo</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="left-sidebar">
+                            <div class="sidebar-title">
+                                <h4>Khuyến mãi</h4>
+                            </div>
+                            <div class="sidebar-ads">
+                                <a href="#">
+                                    <img src="assets/images/sidebar-ads.png" style="width: 100%" alt="ads">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/sidebar-ads-2.png" style="width: 100%" alt="ads">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/sidebar-ads-3.png" style="width: 100%" alt="ads">
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="top-footer">
+                <div class="container grid">
+                    <div class="company-info">
+                        <img src="assets/images/logo_footer.png" alt="footer logo">
+                        <p>XMobile - Công ty TNHH thương mại và kỹ thuật, chuyên kinh doanh các loại mặt hàng điện thoại chất
+                            lượng trên toàn quốc</p>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> 778/B1 Nguyễn Kiệm, P.4, Q. Phú Nhuận, TP. Hồ Chí Minh</p>
+                        <p>
+                            <i class="fas fa-phone"></i> 028 3526 8799</p>
+                        <p>
+                            <i class="fas fa-envelope"></i> contact@fpt.edu.vn</p>
+                    </div>
+                    <div class="about-us-link">
+                        <h3>Thông tin</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Về chúng tôi</a>
+                            </li>
+                            <li>
+                                <a href="#">Chính sách bảo hành</a>
+                            </li>
+                            <li>
+                                <a href="#">Tin khuyến mãi</a>
+                            </li>
+                            <li>
+                                <a href="#">Hệ thống cửa hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="account-link">
+                        <h3>Tài khoản</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="#">Đăng ký</a>
+                            </li>
+                            <li>
+                                <a href="#">Giỏ hàng</a>
+                            </li>
+                            <li>
+                                <a href="#">Thanh toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fb-page">
+                        <h3>Fanpage</h3>
+                        <div class="fb-page" data-href="https://www.facebook.com/NguyenTai.Blogg" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/NguyenTai.Blogg" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/NguyenTai.Blogg">Nguyễn Quốc Tài</a>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot-footer">
+                <div class="container">
+                    &copy; 2018 - Công ty TNHH thương mại và kỹ thuật - Bản quyền thuộc trường cao đẳng FPT Polytechnic.
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="fb-root"></div>
+    <script>
+        function mobileNav() {
+            var x = document.getElementById("mobile-dropdown");
+            if (x.className === "m-dropdown") {
+                x.className += " responsive";
+            } else {
+                x.className = "m-dropdown";
+            }
+        }
+    </script>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+
+</html>

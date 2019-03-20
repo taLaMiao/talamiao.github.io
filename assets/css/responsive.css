@@ -1,0 +1,45 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .categories-nav{display:none}
+    .history .grid,.navigation .grid,.slidershow .grid{display:block;width:100%}
+    .navigation .grid{padding:1px}
+    #header{margin-bottom:0}
+    .slidershow .container{padding:0;margin:0}
+    .slideshow-container{padding-left:0;margin:0 auto}
+    .mid-header-2 .search-cart{display:none}
+    .mid-header-2 .grid{grid-template-columns:repeat(3,1fr)}
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    .mobile-menu{display:block}
+    .m-dropdown.responsive a{float:none;text-align:left}
+    .mid-header-2 .main-nav,.mid-header-2 .header-search,.navigation,.mid-header .header-search,.m-dropdown a{display:none}
+    .mid-header-2 .grid,.mid-header .grid{grid-template-columns:repeat(2,1fr)}
+    .reviews-area,.prod-content .grid,.products-info .grid,.contact-info .grid,.history .grid,.products-area>.grid,.img-ads .grid,.m-dropdown.responsive a,.slidershow .grid{display:block;width:100%}
+    .contact-info .grid input{margin-bottom:10px}
+    .prod-details,.aside{padding:0;margin-top:20px}
+    #header{margin-bottom:0}
+    .slidershow .container{padding:0;margin:0}
+    .slideshow-container{padding-left:0}
+    .top-footer .grid{grid-template-columns:repeat(2,1fr);grid-template-areas:"acclink acclink aboutlink aboutlink" "comif comif fbarea fbarea";grid-template-rows:auto}
+    .thumbImgs{display:flex}
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+    .mobile-menu{display:block}
+    .m-dropdown.responsive a{float:none;display:block;text-align:left}
+    .company-info .com-info .info,.fcontact input,.mb-20{margin-bottom:10px}
+    .m-dropdown a,.navigation,.top-right,.mid-header .header-search,.mid-header .header-cart,.mid-header-2 .main-nav,.mid-header-2 .search-cart{display:none}
+    .thumbImgs{display:flex}
+    .header-logo a{margin:0 auto}
+    .rating-percentage-bar{margin:5px 0}
+    .rating-count .rating-bar,.social-share,.result-count,.top-bar .top-left{text-align:center}
+    .rating-count .rating-bar,.tab-content .reviews-area,.prod-content .grid,.policy-boxes,.products-info .grid,.top-footer .grid,.company-info .com-info,.contact-info .grid,.history .grid,.products-area .flexbox,.products-area .grid,.slidershow,.categories-nav,.top-bar .grid,.mid-header .grid,.slidershow .grid,.img-ads .grid,.mid-header-2 .grid{display:block;width:100%}
+    .page-numbers.flexbox li{display:inline-block}
+    .rating-bar,.prod-details,.policy-boxes .box,.aside{margin-top:10px}
+    .slidershow .container{padding:0;margin:0}
+    .slideshow-container{padding-left:0}
+    .view-more{display:none}
+    .products .flexbox{display:block;width:100%}
+    .title-bar span{display:block;text-align:center}
+    #header{margin-bottom:0}
+    .about-store p{column-count:1}
+    }
+    
